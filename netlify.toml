@@ -9,8 +9,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/new-path"
-  status = 403
+  status = 200
   force = true
-  query = {path = ":path"}
   conditions = {Role = ["admin"]}
